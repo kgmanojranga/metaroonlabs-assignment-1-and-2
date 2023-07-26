@@ -1,5 +1,5 @@
-// Assignment 1
-/*
+//Assignment 1
+
 let userName: string = "TypeScript User";
 
 let repetitions: number = 5;
@@ -10,4 +10,4 @@ function greetUser(name: string, times: number) {
 }
 
 greetUser(userName, repetitions);
-*/
+
