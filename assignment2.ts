@@ -1,19 +1,6 @@
 import * as readlineSync from 'readline-sync';
 
-//Assignment 1
-/*
-let userName: string = "TypeScript User";
-
-let repetitions: number = 5;
-function greetUser(name: string, times: number) {
-    for (let i = 0; i < times; i++) {
-        console.log(`Hello, ${name}! This is greeting number ${i + 1}.`);
-    }
-}
-
-greetUser(userName, repetitions);
-*/
-
+// Assignment2: Building an Interactive CLI Quiz Game using Typescript
 type Question = {
     question: string,
     options: string[],
